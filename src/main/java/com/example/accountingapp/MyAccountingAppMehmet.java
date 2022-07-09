@@ -11,12 +11,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import javax.annotation.PostConstruct;
 @EnableFeignClients
 @SpringBootApplication
-public class AccountingAppApplication {
+public class MyAccountingAppMehmet {
     @Value("${stripe.api.key}")
     private String stripeApiKey;
 
     public static void main(String[] args) {
-        SpringApplication.run(AccountingAppApplication.class, args);
+        SpringApplication.run(MyAccountingAppMehmet.class, args);
     }
     
     @Bean

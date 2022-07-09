@@ -28,7 +28,7 @@ public class InvoiceProduct extends BaseEntity {
     @ManyToOne(fetch = FetchType.LAZY)
     Product product;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     Invoice invoice;
 
 }

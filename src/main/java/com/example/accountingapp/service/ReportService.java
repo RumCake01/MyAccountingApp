@@ -19,4 +19,6 @@ public interface ReportService {
     List<InvoiceDTO> findLast3ByCompany();
 
     List<InvoiceProduct> findAllByCompany();
+
+
 }
